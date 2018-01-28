@@ -1,0 +1,13 @@
+package org.alicelives.gigsattended;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class GigsAttendedActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_gigs_attended);
+    }
+}
