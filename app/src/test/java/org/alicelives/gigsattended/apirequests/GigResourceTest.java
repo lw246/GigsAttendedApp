@@ -1,15 +1,15 @@
 package org.alicelives.gigsattended.apirequests;
 
-import org.alicelives.gigsattended.apirequests.GigsResource;
 import org.alicelives.gigsattended.models.Gig;
 import org.junit.Test;
 
 import java.io.IOException;
 import java.util.List;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertNotNull;
 /**
  * Created by Lee on 28/01/2018.
+ * These tests require the API to be accessible
  */
 
 public class GigResourceTest {

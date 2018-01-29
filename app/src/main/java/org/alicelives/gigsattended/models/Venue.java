@@ -2,43 +2,44 @@ package org.alicelives.gigsattended.models;
 
 /**
  * Created by Lee on 28/01/2018.
+ * Venue model
  */
 
 public class Venue {
-    private String Name;
-    private String City;
-    private String Country;
-    private Integer Dive_Rating;
+    private String name;
+    private String city;
+    private String country;
+    private Integer dive_rating;
 
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-        Name = name;
+        this.name = name;
     }
 
     public String getCity() {
-        return City;
+        return city;
     }
 
     public void setCity(String city) {
-        City = city;
+        this.city = city;
     }
 
     public String getCountry() {
-        return Country;
+        return country;
     }
 
     public void setCountry(String country) {
-        Country = country;
+        this.country = country;
     }
 
     public Integer getDive_Rating() {
-        return Dive_Rating;
+        return dive_rating;
     }
 
     public void setDive_Rating(Integer dive_Rating) {
-        Dive_Rating = dive_Rating;
+        this.dive_rating = dive_Rating;
     }
 }

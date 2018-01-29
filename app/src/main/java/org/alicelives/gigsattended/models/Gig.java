@@ -6,6 +6,7 @@ import java.util.List;
 
 /**
  * Created by Lee on 28/01/2018.
+ * Gig Model
  */
 
 public class Gig {
@@ -37,7 +38,7 @@ public class Gig {
         return calendar;
     }
 
-    public void setDate(Date date) {
+    void setDate(Date date) {
         this.date = date;
     }
 
